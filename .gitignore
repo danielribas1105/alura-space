@@ -15,5 +15,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Banco de dados SQLite
+db.sqlite3
+*.sqlite3
+
 # IDE
 .vscode/
