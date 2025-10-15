@@ -11,4 +11,4 @@ def index(request):
 
 def image(request, foto_id):
    fotografia = get_object_or_404(Fotografia, pk=foto_id)
-   return render(request, "gallery/image.html", {"photo": fotografia})
+   return render(request, "gallery/image.html", {"fotografia": fotografia})
