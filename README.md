@@ -67,3 +67,10 @@ django-admin startproject config .
 ## Rodar o servidor django
 
 python manage.py runserver
+
+## Migrations
+
+python manage.py makemigrations
+
+python manage.py migrate
+
