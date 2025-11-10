@@ -74,3 +74,6 @@ python manage.py makemigrations
 
 python manage.py migrate
 
+## Atualizar os arquivos static/
+
+python manage.py collectstatic
